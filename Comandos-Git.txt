@@ -119,9 +119,12 @@ git tag --> Ver tags
 git tag -d <nombre_tag>
 git tag -a v1.0.0 hash -m "mensaje"
 
-GIT STASH
+=-=-=-=-=-=-=
+= GIT STASH =
+=-=-=-=-=-=-=
 
 Stash: Guardar registros en una boveda.
+
 git stash --> Guarda los ultimos cambios en otro lugar y deshace lo avanzado hasta el ultimo commit.
 git stash list --> mostrar listado de  stashes
 git stash pop --> Trae los cambios que mandamos al stash y elimina el mismo stash.
