@@ -9,8 +9,8 @@ git help <comando> --> Encontrar mas informacion sobre un comando.
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 = Configuracion de usuario  =
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-git config --global user.name "Carlos Pardo"
-git config --global user.email "pardodev78@gmail.com"
+git config --global user.name "<Nombre>"
+git config --global user.email "<email>"
 git config --global -e --> Ver datos como de usuario, alias y etc...
 
 =-=-=-=-=-=-=-=-=-=-=-=
