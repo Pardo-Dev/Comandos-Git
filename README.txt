@@ -1,10 +1,7 @@
-=-=-=-=-=-=-=-=-=-=-=-=
-= Curso Git y GitHub  =
-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=
+= Comandos Git  =
+=-=-=-=-=-=-=-=-=
 
-=-=-=-=-=-=-=
-= Comandos  =
-=-=-=-=-=-=-=
 git --version --> Ver version de git actual.
 git help --> Explicacion comandos.
 git help <comando> --> Encontrar mas informacion sobre un comando.
