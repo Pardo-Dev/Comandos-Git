@@ -46,16 +46,7 @@
 
 `git reset --hard <hash>` ➡️ Vuelve al commit pero borra todos los cambios.
 
-### Estados de archivos
-Letra "U" --> Untracked: Sin seguimiento.
 
-Letra "A" --> Add: Seguido.
-
-Letra "M" --> Modify: Modificado.
-
-Letra "D" --> Delete: Eliminado.
-
-Letra "R" --> Rename: Renombrado.
 
 ### Archivos de git
 .gitkeep ➡️ Para tener algo en una carpeta y que esta se pueda subit al escenario.
@@ -77,23 +68,10 @@ Letra "R" --> Rename: Renombrado.
 
 `git reflog` ➡️ Muestra todo lo realizado(commit, reset y más)(Puedes volver a commits que hayas borrado con reset uwu)
 
-`` ➡️ 
-
 ### Comandos basicos 
 `git mv <nombre_archivo> <nuevo_nombre>` ➡️ Renombrar archivos.
 
 `git rm <nombre_archivo>` ➡️ Eliminar archivos. 
-
-
-### Ignorar archivos  
-
-.gitignore ➡️ Este archivo hace que git ignore archivos para no darle seguimiento.
-
-carpeta/
-
-archivo
-
-*.extension
 
 ### Ramas
 `git branch` ➡️ Ver rama actual.
@@ -127,8 +105,6 @@ Hacen referencia a un commit del como estaba en ese entonces el proyecto.
 
 `git tag -a <nombre_etiqueta> <hash> -m "mensaje"` ➡️ Añadir una etiqueta a un commit especifico.
 
-
-
 ### GIT STASH
 Stash: Guardar registros en una boveda.
 
@@ -148,21 +124,40 @@ Stash: Guardar registros en una boveda.
 
 `git stash save "nombreStash"` ➡️ Crear un stash con nombre.
 
-`` ➡️ 
+### Ignorar archivos  
+
+.gitignore ➡️ Este archivo hace que git ignore archivos para no darle seguimiento.
+
+carpeta/
+
+archivo
+
+*.extension
 
 ### Posibles errores
 Errores con CRLF
 `git config core.autocrlf true`
 
-= Notas =
-=-=-=-=-=
-- --> Abreviaciones.
--- --> Palabra completa.
---global --> Se usa para aplicar configuraciones globales a nivel local.
-Rama master es para produccion
+### Estados de archivos
+Letra "U" --> Untracked: Sin seguimiento.
 
-REAME.md --> Notas del desarrollador
-Git no le da seguimiento a carpetas vacias
+Letra "A" --> Add: Seguido.
 
-Commits nombre
-"archivo.ex: mensaje"
+Letra "M" --> Modify: Modificado.
+
+Letra "D" --> Delete: Eliminado.
+
+Letra "R" --> Rename: Renombrado.
+
+### Notas
+
+- ➡️ Abreviaciones.
+
+-- ➡️ Palabra completa.
+  
+--global ➡️ Se usa para aplicar configuraciones globales a nivel local.
+
+REAME.md ➡️ Notas del desarrollador
+
+Formato Commits
+`git commit -m "archivo.ex: mensaje"`
